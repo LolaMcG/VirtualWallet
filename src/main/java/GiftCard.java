@@ -6,7 +6,7 @@ public class GiftCard implements Chargeable {
         this.balance = balance;
     }
 
-    public double charge(int amount){
+    public double charge(double amount){
         return this.balance -= amount;
     }
 }

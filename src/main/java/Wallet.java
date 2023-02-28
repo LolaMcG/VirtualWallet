@@ -7,7 +7,6 @@ public class Wallet {
 
     public Wallet(){
         this.cards = new ArrayList<>();
-
     }
 
     public void addCard(Chargeable card){
@@ -18,11 +17,16 @@ public class Wallet {
         return this.cards.size();
     }
 
-    public void setCards(Chargeable newPaymentCard){
+    public void setCard(Chargeable newPaymentCard){
         this.selectedPaymentCard = newPaymentCard;
     }
 
     public Chargeable getSelectedPaymentCard(){
         return this.selectedPaymentCard;
+    }
+
+    public void makeATransaction(){
+
+
     }
 }

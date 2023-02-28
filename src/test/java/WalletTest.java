@@ -32,7 +32,7 @@ public class WalletTest {
 
     @Test
     public void canSetCard(){
-        wallet.setCards(debitCard1);
+        wallet.setCard(debitCard1);
         assertEquals(debitCard1, wallet.getSelectedPaymentCard());
     }
 

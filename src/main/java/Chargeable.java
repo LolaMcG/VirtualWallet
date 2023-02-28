@@ -1,5 +1,5 @@
 public interface Chargeable {
 
-    public double charge(int amount);
+    public double charge(double amount);
 
 }
